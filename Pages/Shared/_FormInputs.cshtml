@@ -1,0 +1,21 @@
+@model SignupModel
+
+<div class="mb-3">
+    <input asp-for="FirstName" class="form-control" placeholder="First Name" />
+    <span asp-validation-for="FirstName" class="text-danger small"></span>
+</div>
+
+<div class="mb-3">
+    <input asp-for="LastName" class="form-control" placeholder="Last Name" />
+    <span asp-validation-for="LastName" class="text-danger small"></span>
+</div>
+
+<div class="mb-3">
+    <input asp-for="Email" class="form-control" placeholder="Email Address" />
+    <span asp-validation-for="Email" class="text-danger small"></span>
+</div>
+
+<div class="mb-3">
+    <input asp-for="Password" type="password" class="form-control" placeholder="Password" />
+    <span asp-validation-for="Password" class="text-danger small"></span>
+</div>
