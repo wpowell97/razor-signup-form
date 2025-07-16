@@ -1,8 +1,6 @@
 services:
   - type: web
     name: razor-signup-form
-    env: dotnet
-    buildCommand: dotnet publish -c Release -o out
-    startCommand: dotnet out/RazorSignupForm.dll
+    env: docker
+    dockerfilePath: Dockerfile
     plan: free
-    region: oregon
