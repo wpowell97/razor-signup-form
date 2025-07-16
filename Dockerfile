@@ -13,4 +13,4 @@ RUN dotnet publish -c Release -o /app/out
 FROM base AS final
 WORKDIR /app
 COPY --from=build /app/out .
-ENTRYPOINT ["dotnet", "razor-signup-form.dll"]
+ENTRYPOINT ["dotnet", "RazorSignupForm.dll"]
