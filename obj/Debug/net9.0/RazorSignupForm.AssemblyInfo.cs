@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RazorSignupForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3241404d2fd190a8323182600524967425b1ea05")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6b20cf1427ae827480744ac8973f5c3183b3f95")]
 [assembly: System.Reflection.AssemblyProductAttribute("RazorSignupForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RazorSignupForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
